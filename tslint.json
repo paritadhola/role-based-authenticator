@@ -1,0 +1,32 @@
+{
+  "defaultSeverity": "warning",
+  "rules": {
+    "indent": [true, "spaces"],
+    "no-trailing-whitespace": true,
+    "no-conditional-assignment": true,
+    "no-empty": true,
+    "no-unused-expression": true,
+    "no-use-before-declare": true,
+    "triple-equals": [true],
+    "no-default-export": false,
+    "object-literal-shorthand": true,
+    "no-consecutive-blank-lines": [true],
+    "variable-name": [true, "ban-keywords"],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }
+    ],
+    "interface-name": [true, "always-prefix"],
+    "import-spacing": true,
+    "quotemark": [true, "double"],
+    "no-angle-bracket-type-assertion": true,
+    "no-shadowed-variable": true,
+    "curly": false
+  }
+}
